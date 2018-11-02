@@ -1,0 +1,120 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Kavivanar", cursive;
+  font-weight: normal;
+}
+
+h1 {
+  color: darkorchid;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #a51f10;
+  margin: 0;
+}
+a {
+  color: brown;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.posted {
+  font-size: 0.8rem;
+  color: #89a611;
+}
+
+header {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.leftheader {
+  flex-basis: 40%;
+  text-align: center;
+  border: 1px dotted green;
+}
+
+.rightheader {
+  flex-basis: 60%;
+  border: 1px dotted blue;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  border-top: 1px solid purple;
+}
+
+nav ul {
+  list-style-type: none;
+  border-top: 2px solid pink;
+  border-bottom: 1px solid purple;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+section {
+  border-bottom: 1px solid pink;
+  margin-bottom: 0.5rem;
+}
+
+/* this is the very first thing you always do to clear the formatting */
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  padding: 0;
+}
+
+.floatleft {
+  float: left;
+  margin: 0 1rem 1rem 0;
+}
+
+article:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+article {
+  margin: 2rem 1rem 2rem 1rem;
+  border: 2px solid blue;
+}
+
+img {
+  border-radius: 10px;
+}
