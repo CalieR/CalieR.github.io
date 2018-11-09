@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  cursor: url(../assets/cursor.png);
+  color: white;
+}
+
+.bgrnd {
+  border: 2px solid green;
+  background-image: url(../assets/background.png);
+  width: 1920px;
+  height: 1080px;
+  display: flex;
+}
+
+.scoreboard {
+  border: 2px solid orange;
+}
+
+.hole-row {
+  border: 2px solid blue;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.hole {
+  border: 2px solid red;
+  /* flex-basis: 24%; */
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 2rem auto;
+  text-align: center;
+}
